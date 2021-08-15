@@ -1826,4 +1826,9 @@
       SecureRandom: SecureRandom,
     };
   }
-}.call(this));
+}.call(globalThis));
+
+const BigInteger = globalThis.jsbn.BigInteger;
+const SecureRandom = globalThis.jsbn.SecureRandom;
+
+export { BigInteger, SecureRandom };

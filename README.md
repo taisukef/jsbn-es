@@ -7,9 +7,9 @@ I felt compelled to put this on github and publish to npm. I haven't tested ever
 ## Usage
 
 ```js
-var BigInteger = require('jsbn').BigInteger;
+import { BigInteger } from "https://taisukef.github.io/jsbn/BigInteger.js";
 
-var bi = new BigInteger('91823918239182398123');
+const bi = new BigInteger('91823918239182398123');
 console.log(bi.bitLength()); // 67
 ```
 

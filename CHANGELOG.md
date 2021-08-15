@@ -1,3 +1,7 @@
+# v1.2.0
+
+ES module version
+
 # v1.1.0
 
 - Allow for es6 "default import", e.g. `import BigInteger from 'jsbn'`.
